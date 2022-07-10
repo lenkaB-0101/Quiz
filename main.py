@@ -15,6 +15,8 @@ quiz = QuizBrain(question_list)
 
 while quiz.has_quest() == True:
     quiz.next_quest()
+print("Dokončili jste kvíz")
+print(f"Vaše celkové skóre je: {quiz.score} / {quiz.quest_number}")
 
 
 
